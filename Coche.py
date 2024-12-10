@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter import messagebox
 
 # Clase Coche
-class Coche:
+class Coche: #Atributo de la clase
     def __init__(self, gasolina):
         self.gasolina = gasolina
         print("Tenemos", gasolina, "litros")
